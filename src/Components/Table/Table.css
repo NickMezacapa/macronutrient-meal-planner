@@ -1,0 +1,52 @@
+.Table-Calories_wrapper {
+    height: 40vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Opening-Title_h1 {
+    margin: 4rem 2rem 0;
+    font-size: 1.8rem;
+}
+
+.Table-Calories_innerContainer {
+    position: absolute;
+    bottom: 0;
+    left: 2rem;
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Table-Section_caloriesToMaintain,
+.Table-Section_mealsPerDay {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Calories-Message {
+    height: 20vh;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    right: 4rem;
+}
+
+#dailyCals,
+#mealsPerDay {
+    margin-left: 1rem;
+}
+
+#Table-Calories_nextStep_btn {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
